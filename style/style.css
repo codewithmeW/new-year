@@ -18,19 +18,27 @@ header {
   text-align: center;
 }
 .text {
-  padding: 50px;
-  width: 900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 .header1 {
   color: #fff;
   text-align: center;
   font-family: Merriweather;
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 400;
 }
+.text-color{
+    color: #f4ffdc;
+}
+.black{
+    color: #cdb7f6;
+}
 .header2 {
-  color: #fff;
+  color: #5e2f70d0;
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
